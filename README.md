@@ -44,5 +44,4 @@ hosts=`curl -s -X GET  -H 'Content-type: application/json' -c cooco -b cooco  ht
 
 #hostid=`echo $hosts |jq -r '.[].results'`
 hostid=`echo $hosts |jq '.results.[]|"\(.id) \(.name)"'`
-echo $hostid%                                                   
-   
+echo $hostid       
