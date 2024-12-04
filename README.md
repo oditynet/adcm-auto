@@ -33,7 +33,7 @@ ADCM automatic API v1
 
 ADCM automatic API v2
 
-   Получение токена (Авторские права на код)
+   Получение токена
 ```
 curl -s -c cooco -b cooco  http://<ipaddress>:<port>/auth/login/ 1>&2 >/dev/null
 token=$(cat cooco|grep "csrftoken"|awk '{print $7}')
