@@ -1,0 +1,12 @@
+root,passwordp00,node-crd1-node1.adb.local,1.2.3.26,22
+root,passwordp00,node-crd1-node2.adb.local,1.2.3.27,22
+root,passwordp00,node-apx1-node1.adb.local,1.2.3.31,22
+root,passwordp00,node-apx1-node2.adb.local,1.2.3.32,22
+root,passwordp00,node-scs1-node3.adb.local,1.2.3.48,22
+#SRV
+HDFS
+YARN
+Zookeeper
+HBase
+Hive
+Monitoring
