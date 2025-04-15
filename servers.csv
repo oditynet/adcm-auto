@@ -1,0 +1,9 @@
+server_ip,ssh_user,ssh_password,ssh_port,HBase,HDFS,Hive,MariaDB,Monitoring,Solr,Spark,Spark3,YARN,Zookeeper
+192.168.1.101,admin,pass123,22,0,0,0,0,1,0,0,0,1,1
+192.168.1.102,admin,pass123,22,0,0,0,0,1,0,0,0,1,1
+192.168.1.103,admin,pass123,22,0,0,0,0,1,0,0,0,1,1
+192.168.1.104,admin,pass123,22,0,0,0,0,1,0,0,1,1,0
+192.168.1.105,admin,pass123,22,0,0,0,0,1,0,0,1,1,0
+192.168.1.106,admin,pass123,22,0,0,0,0,1,0,0,1,1,0
+192.168.1.107,admin,pass123,22,0,0,0,0,1,0,0,1,1,0
+192.168.1.108,admin,pass123,22,0,0,0,0,1,0,0,1,1,0
