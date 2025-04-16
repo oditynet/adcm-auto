@@ -45,5 +45,6 @@ hosts=`curl -s -X GET  -H 'Content-type: application/json' -c cooco -b cooco  ht
 #hostid=`echo $hosts |jq -r '.[].results'`
 hostid=`echo $hosts |jq '.results.[]|"\(.id) \(.name)"'`
 echo $hostid       
+```
 
 <img src="https://github.com/oditynet/adcm-auto/blob/main/screen3.png" title="auto generate" width="800" />
